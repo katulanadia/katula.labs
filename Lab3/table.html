@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>table.html</title>
+    <style>
+        table {
+            border-spacing: 3px;
+        }
+        th, td {
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+   <table border="1" align="center">
+        <tr>
+            <th width="100px" height="60px">Простий заголовок</th>
+            <th colspan="2">Заголовок на 2 стовпці</th>
+        </tr>
+        <tr>
+            <th bgcolor="#C6CBCB" width="70px">Заголовок на 1 рядок</th>
+            <td bgcolor="#C6CBCB" align="left" width="200px" height="80px">Комірка 1</td>
+            <td bgcolor="#0A7B81" align="left" width="200px" height="80px">Комірка 2</td>
+        </tr>
+        <tr>
+            <th rowspan="3" height="120px" align="center">Заголовок на 3 рядки</th>
+            <td height="40px" align="center">Комірка 3</td>
+            <td height="40px" align="right">Комірка 4</td>
+        </tr>
+        <tr>
+            <td height="40px" style="color:red">Комірка 5</td>
+            <td rowspan="2" valign="bottom" align="center">Комірка 6</td>
+        </tr>
+        <tr>
+            <td height="40px">Комірка 7</td>
+        </tr>
+   </table> 
+</body>
+</html>
