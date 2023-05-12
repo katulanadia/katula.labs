@@ -1,0 +1,37 @@
+body {
+    background: #fffafa;
+    color: #000000;
+    font-family: Georgia, Times New Roman;
+    font-size: 16px;
+    }
+
+header {
+    background: #6aa86d;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    }
+
+aside {
+    background: #66d17d;
+    float: left;
+    width: 10%;
+    width: 220px;
+    height: 600px;
+    text-align: center;
+    }
+aside2 {
+    background: #66d17d;
+    float: right;
+    width: 10%;
+    width: 220px;
+    height: 600px;
+    text-align: center;
+    }
+
+#content {
+    background: rgb(228, 237, 198);
+    float: center;
+    height: 600px;
+    width: 90%;
+    }

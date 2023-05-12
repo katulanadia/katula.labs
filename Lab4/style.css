@@ -1,0 +1,48 @@
+body {
+    background: #fffafa;
+    color: #000000;
+    font-family: Georgia, Times New Roman;
+    font-size: 16px;
+    }
+
+header {
+    background: #5b7767;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    }
+
+aside {
+    background: #88b39b;
+    float: left;
+    width: 10%;
+    width: 200px;
+    height: 880px;
+    }
+aside2 {
+    background: #88b39b;
+    float: right;
+    width: 10%;
+    width: 230px;
+    height: 880px;
+    text-align: center;
+    }
+
+#content {
+    background: rgb(233, 208, 184);
+    float: center;
+    height: 880px;
+    width: 90%;
+    }
+
+#clear {
+    clear:both;
+    }
+
+footer {
+    background: #5b7767;
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    }
